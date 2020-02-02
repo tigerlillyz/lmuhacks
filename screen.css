@@ -7,32 +7,52 @@ body {
     padding: 1vh;
     grid-column-gap: 2vh;
     grid-row-gap: 2vh;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://wallpaperplay.com/walls/full/d/7/e/191282.jpg");
+
    
   }
   
   h1 {
-    color: purple;
+    color: rgb(34, 113, 163);
     grid-row: 1;
     grid-column: 1 / span 3;
-    font-size: 40px;
+    font-size: 55px;
+    font-style: bold;
+    padding-bottom: 10px;
     
   }
   
   #white {
     grid-column: 2;
     grid-row: 2;
-    background-color: pink;
+    background-color: rgb(196, 231, 255);
   }
   
   #black {
     grid-column: 3;
     grid-row: 2;
-    background-color: black;
-    color: white;
+    background-color: rgb(107, 179, 227);
+    color: black;
   }
   
   #user {
     grid-column: 1;
     grid-row: 2;
-    background-color: rgb(197, 234, 250);
+    background-color: rgb(209, 237, 255);
+  }
+
+  #username {
+    grid-column: 1;
+    grid-row: 2;
+    color: black;
+    padding-top: 50vh;
+  }
+
+  img {
+      grid-column: 1;
+      grid-row: 2;
+      text-align: center;
+      padding-left: 32px;
+      padding-top: 10vh;
   }
