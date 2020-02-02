@@ -1,5 +1,5 @@
 data = {
-    1: {
+    tweets: [{
         "username": "realDonaldTrump",
         "tweet": [
             "Trump poll numbers are the highest since election, despite constant phony Witch Hunts! Tens of thousands of people attending rallies (which the Fake News never mentions) to see The Greatest Show On Earth”. Fun because USA is WINNING AGAIN!",
@@ -8,7 +8,7 @@ data = {
             ]
     },
 
-    2: {
+     {
         "username": "elonmusk",
         "tweet": [
             "I wrote the lyrics & performed the vocals!!",
@@ -17,7 +17,7 @@ data = {
         ]
     },
 
-    3: {
+    {
         "username": "BearGrylls",
         "tweet": [
             "What happens when a Survivalist and Super Star go on a jungle adventure? Watch @BearGrylls and @captainmarvel @brielarson navigate croc-filled mangroves and rappel sheer cliffs on Running Wild with Bear Grylls on National Geographic, Mon-Wed at 10 PM.",
@@ -26,12 +26,14 @@ data = {
         ]
     },
 
-    4: {
+    {
         "username": "rtoal",
         "tweet": [
             "Wait Java does not have raw strings? Okay I guess \\\\\\\\ it is",
             "Languages turning 25 this year: JavaScript (written in May 1995, named JS in December) Java (released by Sun in 1995) Ruby (first public release 1995-12-21) PHP (Unsenet announcement 1995-06-08) Racket Python is older, first released in 1991. C from 1972 and Lisp late 1950s.",
             "When did people start using the words 'codes' for programming? As in 'I have Python codes' or 'My C++ codes'? That sounds really odd and yet I think it is becoming pretty common at least on StackOverflow. Anyone know the etymology?"
         ]
-    }
+    }]
 }
+
+//data.tweets.map(obj => obj.tweet);
