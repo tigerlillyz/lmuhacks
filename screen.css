@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    padding: 1vh;
+    grid-column-gap: 2vh;
+    grid-row-gap: 2vh;
+   
+  }
+  
+  h1 {
+    color: purple;
+    grid-row: 1;
+    grid-column: 1 / span 3;
+    font-size: 40px;
+    
+  }
+  
+  #white {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: pink;
+  }
+  
+  #black {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: black;
+    color: white;
+  }
+  
+  #user {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(197, 234, 250);
+  }
